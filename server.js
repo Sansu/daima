@@ -31,6 +31,8 @@ function main(argv) {
         root = config.root || '.',
         port = config.port || 80;
 
+    
+
     http.createServer(function (request, response) {
         var urlInfo = parseURL(root, request.url);
 

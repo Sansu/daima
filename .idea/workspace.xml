@@ -23,46 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/susha/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="25" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="322">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="router.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/susha/router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="18" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="server.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/susha/server.js">
+        <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="16" selection-start="613" selection-end="613" vertical-scroll-proportion="0.3756806" vertical-offset="0" max-vertical-offset="1102">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requestHandlers.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/susha/requestHandlers.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="19" selection-start="731" selection-end="731" vertical-scroll-proportion="-23.884615" vertical-offset="0" max-vertical-offset="1173">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/susha/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="55" selection-start="245" selection-end="245" vertical-scroll-proportion="-5.03125" vertical-offset="0" max-vertical-offset="391">
+            <state line="33" column="4" selection-start="806" selection-end="806" vertical-scroll-proportion="0.123411976" vertical-offset="623" max-vertical-offset="1771">
               <folding />
             </state>
           </provider>
@@ -78,7 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/susha/package.json" />
         <option value="$PROJECT_DIR$/chat/index.html" />
         <option value="$PROJECT_DIR$/chat/app.js" />
@@ -87,6 +50,7 @@
         <option value="$PROJECT_DIR$/susha/index.html" />
         <option value="$PROJECT_DIR$/susha/server.js" />
         <option value="$PROJECT_DIR$/susha/requestHandlers.js" />
+        <option value="$PROJECT_DIR$/server.js" />
       </list>
     </option>
   </component>
@@ -138,20 +102,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="nodetest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodetest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nodetest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="susha" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -283,13 +233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/susha/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="26" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="161" max-vertical-offset="322">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cat/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="230">
@@ -325,13 +268,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="1" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1725">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microblog/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1031">
@@ -353,42 +289,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/susha/index.html">
+    <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="55" selection-start="245" selection-end="245" vertical-scroll-proportion="-5.03125" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/susha/tmp/test1.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/susha/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="25" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="322">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/susha/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="18" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="368">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/susha/requestHandlers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="19" selection-start="731" selection-end="731" vertical-scroll-proportion="-23.884615" vertical-offset="0" max-vertical-offset="1173">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/susha/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="16" selection-start="613" selection-end="613" vertical-scroll-proportion="0.3756806" vertical-offset="0" max-vertical-offset="1102">
+        <state line="33" column="4" selection-start="806" selection-end="806" vertical-scroll-proportion="0.123411976" vertical-offset="623" max-vertical-offset="1771">
           <folding />
         </state>
       </provider>
