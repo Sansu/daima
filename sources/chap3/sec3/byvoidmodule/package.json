@@ -1,0 +1,20 @@
+{
+  "author": "BYVoid <byvoid.kcp@gmail.com> (http://www.byvoid.com/)",
+  "name": "by",
+  "description": "A module for learning perpose.",
+  "version": "0.0.1",
+  "homepage": "http://www.byvoid.com/",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": "~0.6.10"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC"
+}

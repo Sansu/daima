@@ -1,0 +1,103 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /Users/susha/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/Users/susha/tmp/npm-29283-PY5FGdeZ/1401785602078-0.27583605563268065/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /Users/susha/tmp/npm-29283-PY5FGdeZ/1401785602078-0.27583605563268065/tmp.tgz
+12 verbose folder .
+13 info prepublish cat@0.1.1
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /Users/susha/.npm/1f1177db-tar.lock
+16 silly lockFile 9bd593a5-2078-0-27583605563268065-tmp-tgz tar:///Users/susha/tmp/npm-29283-PY5FGdeZ/1401785602078-0.27583605563268065/tmp.tgz
+17 verbose lock tar:///Users/susha/tmp/npm-29283-PY5FGdeZ/1401785602078-0.27583605563268065/tmp.tgz /Users/susha/.npm/9bd593a5-2078-0-27583605563268065-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 9bd593a5-2078-0-27583605563268065-tmp-tgz tar:///Users/susha/tmp/npm-29283-PY5FGdeZ/1401785602078-0.27583605563268065/tmp.tgz
+21 silly lockFile 9bd593a5-2078-0-27583605563268065-tmp-tgz tar:///Users/susha/tmp/npm-29283-PY5FGdeZ/1401785602078-0.27583605563268065/tmp.tgz
+22 verbose tar unpack /Users/susha/tmp/npm-29283-PY5FGdeZ/1401785602078-0.27583605563268065/tmp.tgz
+23 silly lockFile 9e0f2399-sers-susha-npm-cat-0-1-1-package tar:///Users/susha/.npm/cat/0.1.1/package
+24 verbose lock tar:///Users/susha/.npm/cat/0.1.1/package /Users/susha/.npm/9e0f2399-sers-susha-npm-cat-0-1-1-package.lock
+25 silly lockFile 9bd593a5-2078-0-27583605563268065-tmp-tgz tar:///Users/susha/tmp/npm-29283-PY5FGdeZ/1401785602078-0.27583605563268065/tmp.tgz
+26 verbose lock tar:///Users/susha/tmp/npm-29283-PY5FGdeZ/1401785602078-0.27583605563268065/tmp.tgz /Users/susha/.npm/9bd593a5-2078-0-27583605563268065-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry util/body.js
+30 silly gunzTarPerm extractEntry util/head.js
+31 silly gunzTarPerm extractEntry util/index.js
+32 silly lockFile 9e0f2399-sers-susha-npm-cat-0-1-1-package tar:///Users/susha/.npm/cat/0.1.1/package
+33 silly lockFile 9e0f2399-sers-susha-npm-cat-0-1-1-package tar:///Users/susha/.npm/cat/0.1.1/package
+34 silly lockFile 9bd593a5-2078-0-27583605563268065-tmp-tgz tar:///Users/susha/tmp/npm-29283-PY5FGdeZ/1401785602078-0.27583605563268065/tmp.tgz
+35 silly lockFile 9bd593a5-2078-0-27583605563268065-tmp-tgz tar:///Users/susha/tmp/npm-29283-PY5FGdeZ/1401785602078-0.27583605563268065/tmp.tgz
+36 silly lockFile 3a52ce78- .
+37 silly lockFile 3a52ce78- .
+38 silly publish { name: 'cat',
+38 silly publish   version: '0.1.1',
+38 silly publish   description: 'test',
+38 silly publish   main: 'index.js',
+38 silly publish   scripts: { test: 'dd' },
+38 silly publish   author: { name: 'susha' },
+38 silly publish   license: 'ISC',
+38 silly publish   readme: 'ERROR: No README data found!',
+38 silly publish   _id: 'cat@0.1.1',
+38 silly publish   _shasum: '342f7bd5fd38070dcc4e4af5a10d140ee6d8dcb8',
+38 silly publish   _from: '.' }
+39 verbose url raw cat
+40 verbose url resolving [ 'https://registry.npmjs.org/', './cat' ]
+41 verbose url resolved https://registry.npmjs.org/cat
+42 info trying registry request attempt 1 at 16:53:22
+43 http PUT https://registry.npmjs.org/cat
+44 http 403 https://registry.npmjs.org/cat
+45 verbose headers { date: 'Tue, 03 Jun 2014 08:53:24 GMT',
+45 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R14B04)',
+45 verbose headers   'content-type': 'application/json',
+45 verbose headers   'cache-control': 'max-age=1',
+45 verbose headers   'content-length': '2172',
+45 verbose headers   'accept-ranges': 'bytes',
+45 verbose headers   via: '1.1 varnish',
+45 verbose headers   'x-served-by': 'cache-ty68-TYO',
+45 verbose headers   'x-cache': 'MISS',
+45 verbose headers   'x-cache-hits': '0',
+45 verbose headers   'x-timer': 'S1401785603.812654,VS0,VE504',
+45 verbose headers   'keep-alive': 'timeout=10, max=50',
+45 verbose headers   connection: 'Keep-Alive' }
+46 error publish Failed PUT 403
+47 error Error: forbidden cannot modify pre-existing version: 0.1.1
+47 error old={"name":"cat","description":"cat will read the contents of an url","keywords":["cat","util","request"],"version":"0.1.1","homepage":"https://github.com/mafintosh/cat","author":{"name":"Mathias Buus Madsen","email":"mathiasbuus@gmail.com"},"readme":"# cat\u000a\u000acat will read the contents of an url. it's available through npm\u000a\u000a\u0009npm install cat\u000a\u0009\u000ait will read your files\u000a\u000a```js\u000avar cat = require('cat');\u000a\u000acat('myfile.txt', console.log);             // reads the file as utf-8 and returns it output\u000acat('file://myfile.txt', console.log);      // same as above\u000a```\u000a\u000aand your `http` / `https` urls\u000a\u000a```js\u000acat('http://google.com', console.log);      // cat also follows any redirects\u000acat('https://github.com', console.log);     // and cat read https\u000acat('http://fail.google.com', console.log); // if a status code != 2xx is received it will \u000a                                            // call the callback with an error.\u000a\u000a```","readmeFilename":"README.md","_id":"cat@0.1.1","dist":{"shasum":"197e094fc9c9ea5ad665e10602faef226b35097a","tarball":"http://registry.npmjs.org/cat/-/cat-0.1.1.tgz"},"_from":".","_npmVersion":"1.3.8","_npmUser":{"name":"mafintosh","email":"mathiasbuus@gmail.com"},"maintainers":[{"name":"mafintosh","email":"m@ge.tt"}]}
+47 error new={"name":"cat","version":"0.1.1","description":"test","main":"index.js","scripts":{"test":"dd"},"author":{"name":"susha"},"license":"ISC","readme":"ERROR: No README data found!","_id":"cat@0.1.1","_shasum":"342f7bd5fd38070dcc4e4af5a10d140ee6d8dcb8","_from":".","_npmVersion":"1.4.9","_npmUser":{"name":"susha_402","email":"m18616749402@163.com"},"maintainers":[{"name":"susha_402","email":"m18616749402@163.com"}],"dist":{"shasum":"342f7bd5fd38070dcc4e4af5a10d140ee6d8dcb8","tarball":"http://registry.npmjs.org/cat/-/cat-0.1.1.tgz"}}: cat
+47 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:273:14)
+47 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:211:65)
+47 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:123:22)
+47 error     at Request.EventEmitter.emit (events.js:98:17)
+47 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:893:14)
+47 error     at Request.EventEmitter.emit (events.js:117:20)
+47 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:844:12)
+47 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+47 error     at _stream_readable.js:919:16
+47 error     at process._tickCallback (node.js:419:13)
+48 error If you need help, you may report this *entire* log,
+48 error including the npm and node versions, at:
+48 error     <http://github.com/npm/npm/issues>
+49 error System Darwin 13.1.0
+50 error command "node" "/usr/local/bin/npm" "publish"
+51 error cwd /Users/susha/nodetest/cat
+52 error node -v v0.10.28
+53 error npm -v 1.4.9
+54 verbose exit [ 1, true ]
